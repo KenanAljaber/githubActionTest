@@ -1,0 +1,25 @@
+{
+  "name": "githubactionstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenanAljaber/githubActionTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenanAljaber/githubActionTest/issues"
+  },
+  "homepage": "https://github.com/KenanAljaber/githubActionTest#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
