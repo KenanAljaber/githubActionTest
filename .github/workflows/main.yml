@@ -1,5 +1,8 @@
 name: My Workflow
 
+env:
+    MY_VARIABLE: This is a variable
+
 on:
     push:
         branches:
@@ -12,3 +15,5 @@ jobs:
             - uses: actions/checkout@v4
             - name: Run a one-line script
               run: echo Hello, world
+            - name : show the variable
+              run: echo ${{ env.MY_VARIABLE }}
