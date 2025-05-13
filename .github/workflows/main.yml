@@ -19,3 +19,7 @@ jobs:
               run: echo ${{ env.MY_VARIABLE }}
             - name : print the secret
               run: echo ${{ secrets.MY_SECRET }}
+            - name : Create a file 
+              run: echo "Hello, world" > hello.txt
+            - name : read the hello file
+              run: cat hello.txt
