@@ -27,3 +27,9 @@ jobs:
               run : npm install
             - name: run tests
               run : npm test
+    another-job:
+        runs-on: macos-latest
+        needs: build
+        steps:
+            - name: Run a one-line script
+              run: echo The second job is running
