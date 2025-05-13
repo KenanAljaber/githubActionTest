@@ -17,3 +17,5 @@ jobs:
               run: echo Hello, world
             - name : show the variable
               run: echo ${{ env.MY_VARIABLE }}
+            - name : print the secret
+              run: echo ${{ secrets.MY_SECRET }}
